@@ -2,4 +2,5 @@
 require "pry"
 require_relative "../lib/traveler.rb"
 
-# Cli.new.call
+Cli.new.call
+# Scraper.new.get_page("http://expertvagabond.com/")
